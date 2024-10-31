@@ -1,0 +1,54 @@
+/* Header.css */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3em 0.8em;
+  background-color: #ec9fab80;
+  box-shadow: 10px 4px 8px 10px rgba(194, 90, 90, 0.1);
+  border-radius: 0.1em 0.1em 1em 1em;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center; /* Allinea verticalmente il logo e il testo */
+}
+
+.logo-img {
+  width: 5.5em; /* Imposta la larghezza del logo (modifica secondo necessità) */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+  margin-right: 0.5em; /* Spazio tra logo e nome azienda */
+}
+
+.header-logo h1 {
+  margin: 0;
+  color: rgb(22, 14, 121);
+  font-size: 3.7em;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  font-style: italic; /* Rende il testo in corsivo */
+  transform: skew(-12deg); /* Inclinazione del testo */
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2em;
+}
+
+.nav-menu a {
+  color: rgb(7, 13, 100);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #5e88c7;
+}
